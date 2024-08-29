@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File Upload</title>
+  </head>
+  <body>
+    <h1>File Upload</h1>
+    <form id="uploadForm" onsubmit="handleSubmit(event); return false;">
+      <div>
+        <label for="paymentFile">Payment File:</label>
+        <input type="file" id="paymentFile" name="payment_file" required />
+      </div>
+      <div>
+        <label for="jsonFile">JSON File:</label>
+        <input type="file" id="jsonFile" name="json_file" required />
+      </div>
+      <button type="submit">Upload Files</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script>
+      async function handleSubmit(e) {
+        e.preventDefault();
+
+        // Your existing code here
+
+        const formData = new FormData();
+        formData.append(
+          "payment_file",
+          document.getElementById("paymentFile").files[0]
+        );
+        formData.append(
+          "json_file",
+          document.getElementById("jsonFile").files[0]
+        );
+
+        try {
+          const response = await fetch("http://127.0.0.1:8000/validate-file", {
+            method: "POST",
+            body: formData,
+          });
+
+          const data = await response.json();
+          document.getElementById("result").innerText = JSON.stringify(
+            data,
+            null,
+            2
+          );
+        } catch (error) {
+          console.error("Error:", error);
+          document.getElementById("result").innerText =
+            "An error occurred while uploading the files.";
+        }
+        return false;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+{
+    "certainMatch": [
+        { "invoiceId": "SW322", "hash": "5d41402abc4b2a76b9719d911017c592" },
+        { "invoiceId": "ABC121", "hash": "098f6bcd4621d373cade4e832627b4f6" },
+        { "invoiceId": "EA413", "hash": "e4da3b7fbbce2345d7772b0674a318d5" },
+        { "invoiceId": "ABL002", "hash": "7b774effe4a349c6dd82ad4f4f21d34c" },
+        { "invoiceId": "IPI523", "hash": "098f6bcd4621d373cade4e832627b4f6" }
+    ],
+
+    "potentiallyMatched": [
+        { "invoiceId": "OZC001", "hash": "8f14e45fceea167a5a36dedd4bea2543", "confindence": 90, "warning": "Vendor name is not an exact match." },
+        { "invoiceId": "ABL002", "hash": "6f1ed002ab5595859014ebf0951522d9", "confindence": 50, "warning": "Vendor name is not an exact match. Date does not match" },
+        { "invoiceId": "TPG102", "hash": "25f9e794323b453885f5181f1b624d0b", "confindence": 95, "warning": "Vendor name is not an exact match."  }
+    ],
+
+    "unmatched": [
+        { "hash": "2f1ed002ab5595859014ebf0951522d3" }
+    ]
+}

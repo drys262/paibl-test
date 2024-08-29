@@ -1,0 +1,58 @@
+{
+    "invoices": [
+        {
+            "filehash": "8f14e45fceea167a5a36dedd4bea2543",
+            "vendorName": "Dongyong (Ken) Bao trading as OZ Care",
+            "invoiceDate": "8/8/2024",
+            "amountPayable": "641.00"
+        },
+        {
+            "filehash": "5d41402abc4b2a76b9719d911017c592",
+            "vendorName": "Sydney Water",
+            "invoiceDate": "10/8/2024",
+            "amountPayable": "4211.34"
+        },
+        {
+            "filehash": "098f6bcd4621d373cade4e832627b4f6",
+            "vendorName": "AB Cleaning Services",
+            "invoiceDate": "11/8/2024",
+            "amountPayable": "232.00"
+        },
+        {
+            "filehash": "e4da3b7fbbce2345d7772b0674a318d5",
+            "vendorName": "Energy Australia Pty Ltd",
+            "invoiceDate": "11/8/2024",
+            "amountPayable": "387.00"
+        },
+        {
+            "filehash": "7b774effe4a349c6dd82ad4f4f21d34c",
+            "vendorName": "ABC Lighting",
+            "invoiceDate": "12/8/2024",
+            "amountPayable": "311.00"
+        },
+        {
+            "filehash": "25f9e794323b453885f5181f1b624d0b",
+            "vendorName": "TPC Internet",
+            "invoiceDate": "13/8/2024",
+            "amountPayable": "100.00"
+        },
+        {
+            "filehash": "098f6bcd4621d373cade4e832627b4f6",
+            "vendorName": "iPrimus Internet",
+            "invoiceDate": "14/8/2024",
+            "amountPayable": "50.00"
+        },
+        {
+            "filehash": "6f1ed002ab5595859014ebf0951522d9",
+            "vendorName": "ABC Lighting Services Pty Ltd",
+            "invoiceDate": "15/8/2024",
+            "amountPayable": "311.00"
+        },
+        {
+            "filehash": "2f1ed002ab5595859014ebf0951522d3",
+            "vendorName": "Officeworks",
+            "invoiceDate": "15/8/2024",
+            "amountPayable": "639.30"
+        }
+    ]
+}
