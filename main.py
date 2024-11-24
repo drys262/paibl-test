@@ -1,3 +1,5 @@
+import uvicorn
+
 import os
 import shutil
 import json
@@ -187,3 +189,6 @@ async def validate_file(
         return output
     except Exception as e:
         return {"error": f"An error occurred: {str(e)}"}
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000)
